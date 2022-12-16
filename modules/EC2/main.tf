@@ -28,7 +28,7 @@ resource "aws_instance" "terraform-demo-2" {
 
 resource "aws_instance" "jfabry-waste-test" {
   ami                = var.ami-2
-  instance_type      = var.instance_type-2
+  instance_type      = var.instance_type-3
   key_name           = "ray-demo"
 
   user_data          = "${file("user-data-script.sh")}"
