@@ -1,5 +1,6 @@
 instance_type-1 = "t2.nano"
 instance_type-2 = "t2.nano"
 instance_type-4 = "t2.nano"
+azure_vm_size   = "Standard_D2s_v3"
 ami-1           = "ami-0beaa649c482330f7"
 ami-2           = "ami-0beaa649c482330f7"
