@@ -26,7 +26,7 @@ resource "aws_instance" "terraform-demo-2" {
   }
 }
 
-resource "aws_instance" "jfabry-waste-test" {
+resource "aws_instance" "astra-test" {
   ami           = var.ami-2
   instance_type = var.instance_type-4
   key_name      = "ray-demo"
@@ -34,7 +34,7 @@ resource "aws_instance" "jfabry-waste-test" {
   user_data = file("user-data-script.sh")
 
   tags = {
-    Name             = "jfabry-waste-test"
+    Name             = "astra-test"
     turbo_owner      = "tester@test.com"
     Terraform_Config = "https://github.com/turbonomic-integrations/terraform-demo/blob/main/terraform.tfvars::instance_type-3"
   }
